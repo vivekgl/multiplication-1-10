@@ -40,8 +40,7 @@ let refresh = (e)=>{
         }
         // console.log(score)
         scoreEl.textContent = `score : ${score}`;
-        inputEl.value = "";
-    
+        inputEl.value = "";  
 }
 
 function update() {
@@ -52,3 +51,7 @@ function update() {
     questionEl.textContent=`What is ${num1} multiply by ${num2}?`
     correctAns = num1 * num2;
 }
+
+// function fun(event) {
+//     console.log("keyup")
+// }
